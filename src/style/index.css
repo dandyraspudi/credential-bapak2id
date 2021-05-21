@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+/* navbar */
+.navbar{
+  max-height: 55px;
+}
+.logo{
+  max-width: 91px;
+}
+.menu{
+  gap:50px;
+}
+.navbar-collapse{
+  z-index: 5;
+}
+.menu-icon{
+  max-width: 120%;
+}
+/* navbar */
+
+.header-main{
+  padding-top: 70px;
+}
+.header-image{
+  width: 80%;
+}
+.btn-cek-rate-header{
+  width: 380px;
+}
+
+/* value */
+.line-value{
+  min-height: 12px;
+  width: 80%;
+  border: none;
+}
+.title-value{
+  position: relative;
+}
+.title-value::before{
+  content: "";
+  position: absolute;
+  color: #FCCE19;
+}
+/* value */
+
+/* chart */
+.pieChart{
+  width: 154px;
+  height: 154px;
+  background: #efefef;
+  display: block;
+  background-image: conic-gradient(
+    #E8E8E8 130deg,
+    #6B52FC 130deg
+  );
+}
+.label-age{
+  width: 15%;
+}
+/* chart */
+
+/* rate */
+input[type=text]{
+  background: transparent;
+  color: #000;
+  font-weight: 700;
+}
+select{
+  color: #000;
+  font-weight: 700;
+}
+/* rate */
+
+/* footer content */
+.rate-card-group{
+  max-width: 80% !important;
+}
+.btn-cek-rate{
+  padding: 20px 0px;
+  border: none;
+  outline: none;
+  max-width: 100% !important;
+  border-radius: 5px;
+}
+.footer-content{
+  object-fit: cover;
+}
+/* footer content */
+
+/* footer */
+.soc-med{
+  gap: 10px;
+}
+.socmed-logo{
+  padding: 5px;
+  width: 24px;
+  height: 24px;
+}
+/* footer */
+
+/* Custom Sizing */
+.w-15{
+  width: 15% !important;
+}
+
+/* responsive */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .logo{
+    max-width: 70px;
+  }
+  .navbar{
+
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .navbar-collapse{
+    background: white;
+    text-align: right;
+  }
+  .navbar-nav{
+    margin-right: 5%;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  /* header */
+  .header-content{
+    z-index: 3;
+  }
+  .header-image-mobile{
+    width: 70%;
+    margin-top: -300px;
+  }
+  /* header */
+  .navbar-collapse{
+    background: white;
+    text-align: right;
+  }
+  .navbar-nav{
+    margin-right: 5%;
+  }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops)
+No media query since the extra-large breakpoint has no upper bound on its width */
+
+/* responsive */

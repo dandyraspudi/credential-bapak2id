@@ -1,0 +1,371 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    overflow-x: hidden !important;
+}
+
+.bebas-font{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.montserat-font{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fs-144{
+    font-size: 144px;
+}
+.fs-96{
+    font-size: 96px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-14{
+    font-size: 14px;
+}
+
+.fw-900{
+    font-weight: 900;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-400{
+    font-weight: 400;
+}
+
+.b-yellow{
+    background: #FCCE19;
+}
+.b-linear-blue{
+    background: linear-gradient(180deg, #6C52FD 0%, #3D28B6 100%);
+}
+.b-black{
+    background: #000;
+}
+.b-white{
+    background: #fff;
+}
+.b-grey{
+    background: #E8E8E8;
+}
+.op-3{
+    opacity: 0.3;
+}
+
+.c-white{
+    color: #fff;
+}
+.c-black{
+    color: #000;
+}
+.c-purple{
+    color: #6C52FD;
+}
+
+.ptb-100{
+    padding: 100px 0px;
+}
+.ptb-50{
+    padding: 50px 0px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+.pt-50{
+    padding-top: 50px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.prl-70{
+    padding: 0px 70px;
+}
+
+.mtb-100{
+    margin: 100px 0px;
+}
+.mtb-50{
+    margin: 50px 0px;
+}
+.mb-100{
+    margin-bottom: 100px;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.-ml-2{
+    margin-left: -2rem;
+}
+.-ml-15{
+    margin-left: -1.5rem;
+}
+.-ml-1{
+    margin-left: -1rem;
+}
+
+.-mt-2{
+    margin-top: -2rem;
+}
+.-mt-15{
+    margin-top: -1.5rem;
+}
+.-mt-13{
+    margin-top: -1.3rem;
+}
+.-mt-1{
+    margin-top: -1rem;
+}
+.-mt-05{
+    margin-top: -0.5rem;
+}
+.-mt-02{
+    margin-top: -0.2rem;
+}
+
+.over-x{
+    overflow-x: hidden;
+}
+
+.border-left{
+    border-left: 1px solid #000 0.5;
+    height: 75%;
+}
+
+.border-input{
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+    border-radius: 0px !important;
+}
+
+.options{
+    color: #000 !important;
+    font-weight: 600;
+}
+.options:focus{
+    font-weight: 700;
+}
+
+.plc::placeholder{
+    color: #000 !important;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+}
+
+/* responsive */
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .fs-500-144{
+        font-size: 144px;
+    }
+    .fs-500-96{
+        font-size: 96px;
+    }
+    .fs-500-50{
+        font-size: 50px;
+    }
+    .fs-500-24{
+        font-size: 24px;
+    }
+    .fs-500-18{
+        font-size: 18px;
+    }
+    .fs-500-16{
+        font-size: 16px;
+    }
+    .fs-500-14{
+        font-size: 14px;
+    }
+
+    .prl-500-20{
+        padding: 0px 20px;
+    }
+
+    .ptb-500-100{
+        padding: 100px 0px;
+    }
+    .ptb-500-50{
+        padding: 50px 0px;
+    }
+    .pt-500-100{
+        padding-top: 100px;
+    }
+    .pb-500-100{
+        padding-bottom: 100px;
+    }
+    .pt-500-50{
+        padding-top: 50px;
+    }
+    .pb-500-50{
+        padding-bottom: 50px;
+    }
+    .pt-500-30{
+        padding-top: 30px;
+    }
+    .pb-500-30{
+        padding-bottom: 30px;
+    }
+    .pt-500-0{
+        padding-top: 0px;
+    }
+    .pb-500-0{
+        padding-bottom: 0px;
+    }
+    
+    .mtb-500-100{
+        margin: 100px 0px;
+    }
+    .mtb-500-50{
+        margin: 50px 0px;
+    }
+    .mb-500-100{
+        margin-bottom: 100px;
+    }
+    .mt-500-100{
+        margin-top: 100px;
+    }
+    .mt-500-50{
+        margin-top: 50px;
+    }
+    .mb-500-50{
+        margin-bottom: 50px;
+    }
+    .mt-500-30{
+        margin-top: 30px;
+    }
+    .mb-500-30{
+        margin-bottom: 30px;
+    }
+    .mt-500-0{
+        margin-top: 0px;
+    }
+    .mb-500-0{
+        margin-bottom: 0px;
+    }
+    .mt-500-0150{
+        margin-top: -150px;
+    }
+    .mb-500-0{
+        margin-bottom: 0px;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .b-700-transparent{
+        background: none;
+    }
+    .c-700-white{
+        color: #fff;
+    }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    body{
+        overflow-x: hidden !important;
+    }
+
+    .ptb-900-100{
+        padding: 100px 0px;
+    }
+    .ptb-900-50{
+        padding: 50px 0px;
+    }
+    .pt-900-100{
+        padding-top: 100px;
+    }
+    .pb-900-100{
+        padding-bottom: 100px;
+    }
+    .pt-900-50{
+        padding-top: 50px;
+    }
+    .pb-900-50{
+        padding-bottom: 50px;
+    }
+    .pt-900-30{
+        padding-top: 30px;
+    }
+    .pb-900-30{
+        padding-bottom: 30px;
+    }
+    .pt-900-0{
+        padding-top: 0px;
+    }
+    .pb-900-0{
+        padding-bottom: 0px;
+    }
+    .prl-900-70{
+        padding: 0px 70px;
+    }
+    
+    .mtb-900-100{
+        margin: 100px 0px;
+    }
+    .mtb-900-50{
+        margin: 50px 0px;
+    }
+    .mb-900-100{
+        margin-bottom: 100px;
+    }
+    .mt-900-100{
+        margin-top: 100px;
+    }
+    .mt-900-50{
+        margin-top: 50px;
+    }
+    .mb-900-50{
+        margin-bottom: 50px;
+    }
+    .mt-900-30{
+        margin-top: 30px;
+    }
+    .mb-900-30{
+        margin-bottom: 30px;
+    }
+    .mt-900-0{
+        margin-top: 0px;
+    }
+    .mb-900-0{
+        margin-bottom: 0px;
+    }
+
+    .b-900-transparent{
+        background: none;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+
+}
+
+/* // Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width */
+/* responsive */
